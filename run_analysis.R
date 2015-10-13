@@ -19,7 +19,7 @@ df.col.names = df.col.names[c(FALSE, TRUE)]
 # Define classes - for skipping unneccessary columns (use only *mean()* and *std()* columns)
 #                  required columns are numeric, the others are NULL
 df.colclasses = as.character(grepl("mean\\(\\)|std\\(\\)",df.col.names))
-df.colclasses <- unname(sapply(df.colclasses, 
+df.colclasses = unname(sapply(df.colclasses, 
                                function(x){c("numeric","NULL")[match(x, c("TRUE","FALSE"))]}))
 
 # Drop brackets "()" in column names
