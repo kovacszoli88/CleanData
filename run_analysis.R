@@ -54,7 +54,6 @@ names(df)[1:2]= c("Activity","Volunteer")
 Activity = scan("activity_labels.txt", what="character", sep=NULL)
 mActivity = matrix(Activity, byrow = T, nrow=6, ncol=2)
 
-# Subtitution of values based on: https://aurelienmadouasse.wordpress.com/2013/12/18/r-code-equivalent-of-gsub-for-a-vector-of-patterns/
 # Replace numeric values as descriptive names and convert them to factors
 df$Activity <- sapply(df$Activity, function(x){mActivity[,2][match(x, mActivity[,1])]})
 df$Activity = factor(df$Activity)
