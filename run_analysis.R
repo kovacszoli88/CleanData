@@ -1,6 +1,3 @@
-# # Set working directory for myself
-# setwd('C:\\!PROJECTS\\024 Coursera\\Getting and cleaning Dataset')
-
 
 #########################################################################
 # Note: I have not followed the described order in text,
