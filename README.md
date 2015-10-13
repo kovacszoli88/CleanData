@@ -36,8 +36,10 @@ You should set the working directory inside the extracted "getdata-projectfiles-
 <li>Variables are summarized by the ID of volunteers and activities and exported.</li>
 
 ## Output variables
-df - Created data frame storing the mean and standard deviation of all measured data.
-dfHAR - Summarized data frame of df by the ID of volunteers and activities.
+<ul>
+<li>df - Created data frame storing the mean and standard deviation of all measured data.</li>
+<li>dfHAR - Summarized data frame of df by the ID of volunteers and activities.</li>
+</ul>
 
 ##Output file
 The code will result an output txt (HARoutput.txt) into your working directory.
