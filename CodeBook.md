@@ -1,12 +1,20 @@
 ## Input files
 activity_labels.txt - Coded values of activities
+
 features.txt - Variable names of measurements
+
 test\subject_test.txt - IDs of volunteers (test set)
+
 training\subject_training.txt - IDs of volunteers (training set)
+
 test\X_test.txt.txt - Measurements and preprocessed data (test set)
+
 training\X_training.txt.txt - Measurements and preprocessed data (training set)
+
 test\y_test.txt - Codes of activities (test set)
+
 training\y_training.txt - Codes of activities (training set)
+
 
 ## Intermediate variables
 df.col.names - Character vector of variables names
