@@ -34,6 +34,7 @@ You should set the working directory inside the extracted "getdata-projectfiles-
 <li>Activity are recoded for more readable format (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) and converted to factor variable.</li>
 <li>All variables except the created data frame are removed for releasing some memory for further analysis.</li>
 <li>Variables are summarized by the ID of volunteers and activities and exported.</li>
+</ol>
 
 ##Output file
 The code will result an output txt (HARoutput.txt) into your working directory.
